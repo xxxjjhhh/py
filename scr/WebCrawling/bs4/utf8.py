@@ -1,1 +1,1 @@
-soup = BeautifulSoup(contents, 'html.parser', from_encoding='uft-8')
+soup = BeautifulSoup(req.text, 'html.parser', from_encoding='uft-8')
